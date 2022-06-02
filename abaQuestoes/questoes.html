@@ -1,0 +1,91 @@
+<!DOCTYPE html lang = "pt-br">
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MathJax TeX Test Page</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+<body>
+    <nav class="navbar navbar-default"> <!-- É necessário cuidar em quais sites poderemos redirecionar o usuário a partir deste-->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="../index.html">LuckStudy</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li class = "active"><a href="#">Banco de Questões</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sobre nós</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class = "container">
+        <div class = "page-header">
+            <h1> Banco de Questões Colaborativo </h1>
+            <small> Para o seu melhor estudo </small>
+        </div>   
+    <div class = "well">
+        When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are a
+        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    </div>    
+    <div class = "container well">
+        <p>Determine a derivada de \(y = x^2\), em relação ao x.</p>
+        <div class="radio">
+            <label><input type="radio" name="optradio" checked> \(2x\)</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio">\(2\)</label>
+        </div>
+            <div class="radio">
+                <label><input type="radio" name="optradio" disabled>\(x^3\)</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="optradio" disabled>\(\dfrac{x}{2}\)</label>
+            </div><div class="radio">
+                <label><input type="radio" name="optradio" disabled>\(x - 2\)</label>
+            </div>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#q0"> Dica </button>
+            <div id="q0" class="collapse">
+                A regra da potência diz que dado \(f(x) = x^n\), então (\f'(x) = n * x ^ (n-1).\) (Verifique!)
+            </div>
+    </div>    
+  </div>
+  <div class = "container well">  
+    <p>Determine as coordenadas do ponto de interseção \(P = (x,y)\) das retas \(r: y = 2x\) e \(s: y = -4x + 6\).</p>
+    \( x = \) <input type = "text"></input> \( y = \) <input type = "text"></input><br>
+    <p class = "cexec"></p>
+    <input type = "Submit" value = "Submeter"></button>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#q1">Dica</button>
+    <div id="q1" class="collapse">
+        No ponto \(P\), as duas equações das retas serão satisfeitas, pois \(P \in r, P \in s\), o que formará um sistema de equações.
+    </div>
+  </div>
+  <div class = "container well">
+    <p>Calcule a área do triângulo retângulo cujo catetos medem \(8cm\) e \(7cm\).</p>
+    <input type = "text"> </input><br>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#q2"> Dica </button>
+    <div id="q2" class="collapse">
+        O que se pode dizer sobre os catetos desse triângulo para o cálculo da área? 
+    </div>
+  </div>
+  <div class = "container well">
+    <p>Use a definição de derivada para encontrar \(f'(x), f(x) = mx\), sendo \( m \) uma constante real.</p>
+    \(f'(x) =\) 
+    <input type = "text"> </input>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#q3"> Dica </button>
+        <div id="q3" class="collapse">
+        Lembre se que a derivada de uma função pode ser definida por $$ f'(x) = \lim\limits_{h \to 0} \dfrac{f(x + h) - f(x)}{h} $$
+        </div>
+  </div>  
+</body>
+</html>
