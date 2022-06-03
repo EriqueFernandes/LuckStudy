@@ -4,6 +4,12 @@
     /* max-width: 100%; */
 }
 
+.imgPrincipal{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+}
+
 body,html{
     font-family: 'Roboto', sans-serif;
 }
@@ -31,3 +37,4 @@ body,html{
     border-bottom: solid 4px var(--secondary);
     color: var(--secondary);
 }
+
