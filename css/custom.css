@@ -38,3 +38,18 @@ body,html{
     color: var(--secondary);
 }
 
+#slider{
+    /* Colocar fundo perto do saiba mais da página principal */
+    /* background: url() no-repeat center bottom; */
+    background-size: contain;
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
