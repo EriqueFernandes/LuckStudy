@@ -53,3 +53,12 @@ body,html{
     font-size: 18px;
     text-transform: uppercase;
 }
+
+.containerPrincipal h1{
+    text-align: center;
+}
+
+.containerPrincipal h4{
+    margin-left: 10%;
+    margin-right: 10%;
+}
