@@ -4,6 +4,11 @@
     /* max-width: 100%; */
 }
 
+.imgA{
+    width: 80%;
+    height: 80%;
+}
+
 .imgPrincipal{
     margin-top: 3%;
     margin-left: 10%;
@@ -17,7 +22,7 @@ body,html{
 #header{
     width: 100%;
     background-color: transparent;
-    transition: background ease-out .2s;
+    transition: background ease-out 0.2s;
 }
 
 #header .navbar-collapse{
@@ -61,4 +66,36 @@ body,html{
 .containerPrincipal h4{
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#materias a.destaque{
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#materias a.destaque:hover{
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+}
+
+#materias p{
+    color: var(--dark);
+}
+
+#materias a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+} 
+
+#materias a.destaque .img-container img{
+    max-height: 160px;
 }

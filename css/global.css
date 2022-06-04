@@ -1,3 +1,28 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;  
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    color: var(--dark);
+    font-weight: 400;
+}
+
+.block{
+    margin-bottom: 110px;
+}
+
+a{
+    color: var(--primary);
+}
+
+a:hover{
+    color: var(--primary-dark);
+}
+
 .button{
     /* text-transform: lowercase; */
     font-weight: 500;
