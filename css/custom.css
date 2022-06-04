@@ -25,6 +25,13 @@ body,html{
     transition: background ease-out 0.2s;
 }
 
+#header.active{
+    position: fixed;
+    background: white;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
 #header .navbar-collapse{
     width: auto;
 }
@@ -57,10 +64,6 @@ body,html{
 #slider h4{
     font-size: 18px;
     text-transform: uppercase;
-}
-
-.containerPrincipal h1{
-    text-align: center;
 }
 
 .containerPrincipal h4{
