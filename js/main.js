@@ -8,14 +8,3 @@ jQuery(document).ready(function($){
         }
     }
 });
-
-// jQuery(document).ready(function($){
-//     // hover:submenu
-//     window.onscroll = function(){
-//         if(window.pageYOffset > 140){
-//             $("#header").addClass("active");
-//         } else {
-//             $("#header").removeClass("active");
-//         }
-//     }
-// });

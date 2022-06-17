@@ -1,0 +1,137 @@
+# Questões para serem lidas
+---
+texto: Determine a derivada de \(y = x^2\), em relação a x.
+options:
+ - A : "\(2x\)"
+  correct: True 
+  reason: "Segue-se diretamente aplicando a fórmula da derivada de uma potência."
+ - B : "\(2\)"
+  correct: False
+  reason:"O x não desaparece quando é aplicada a fórmula da derivada da potência."
+ - C : "\(x^3\)"
+  correct: False
+  reason: "O expoente é decrescido em 1 quando se é aplicado a fórmula da derivada da potência"
+ - D :"\(\dfrac{x}{2}\)"
+  correct: False
+  reason:
+ - E : "\(x - 2\)"
+  correct: False
+  reason: "Não acontece o aparecimento de uma constante nessa derivada, pois não há nenhum termo da forma \(ax, a \in \R \and a \dif 0\)"
+---
+#Geometria Analítica
+texto: "Determine as coordenadas do ponto de interseção \(P = (x,y)\) das retas \(r: y = 2x\) e \(s: y = -4x + 6\)."
+options:
+ - A : "\(P = (2,9)\)"
+  correct: False
+  reason: "O ponto \((2,9)\) não satisfaz às equações das retas ao mesmo tempo."
+
+ - B :"\(P = (3,9)\)"
+  correct: False
+  reason:"O ponto \((3,9)\) não satisfaz às equações das retas ao mesmo tempo."
+
+ - C :"\(P = (3,1)\)"
+  correct: False
+  reason: "O ponto \((3,1)\) não satisfaz às equações das retas ao mesmo tempo."
+ 
+ - D :"\(P = (1,2)\)"
+  correct: True
+  reason:"O ponto \((2,1)\) satisfaz às equações das retas ao mesmo tempo."
+ 
+ - E :"\(P = (2,1)\)"
+  correct: False
+  reason:"As coordenadas x e y estão invertidas."
+---
+texto: "Calcule a área do triângulo retângulo cujo catetos medem \(8cm\) e \(7cm\)."
+options:
+ - A : "\(56 cm^2\)"
+  correct: False
+  reason: "Deve-se dividir por 2 no cálculo da área. Se não, obteríamos a do retângulo cujas bases e altura têm as medidas enunciadas." 
+
+ - B :"\(52 cm^2\)"
+  correct: False
+  reason:
+ 
+ - C :"\(15 cm^2\)"
+  correct: False
+  reason: 
+ 
+ - D :"\(28 cm^2\)"
+  correct: True
+  reason:
+ 
+ - E :"Nenhuma das respostas anteriores."
+  correct: False
+  reason: 
+---
+texto: "Qual a derivada da função \(f(x) = mx\) com \(m\) constante?"
+options:
+ - A : "\(m\)"
+  correct: True
+  reason: "Segue-se da regra de derivação com uma constante."
+
+ - B : "\(mx\)"
+  correct: False
+  reason: "O x não faz parte nessa derivada."
+ 
+ - C : "\(m^2\)"
+  correct: False 
+  reason: "Não há motivo para o m estar elevado ao quadrado."
+ 
+ - D : "\(0\)"
+  correct: False
+  reason:
+ 
+ - E :"Nenhuma das respostas anteriores."
+  correct: False
+  reason: "Considere alguma das respostas anteriores! Algo pode ter passado despercebido!"
+---
+texto: "Na linguagem C, qual das funções abaixo é utilizada especificamente para mostrar informações ao usuário?"
+options:
+ - A : "scanf()"
+  correct: False
+  reason: "Essa função é utilizada para pedir informações ao usuário"
+ 
+ - B : "printf()"
+  correct: False
+  reason: "O x não faz parte nessa derivada."
+ 
+ - C : "if()"
+  correct: False 
+  reason: "Essa função é uma condicional."
+ 
+ - D : "main()"
+  correct: False
+  reason: "Essa não é a função que especificamente faz isso, apesar de poder ter alguma em seu escopo que o faz."
+
+ - E :"Nenhuma das respostas anteriores."
+  correct: False
+  reason: "Considere alguma das respostas anteriores! Algo pode ter passado despercebido!"
+---
+texto: Qual o eixo maior da elipse "\(\dfrac{x^2}{35} + \dfrac{y^2}{25} = 1 \)"
+  answer:
+  correct: "\(2 * \sqrt{35}\)"
+---
+texto: "Calcule à mão o valor da expressão \( \dfrac {34 * 45}{17 * 3} \)."
+  answer:
+  correct: "\(30\)"
+---
+texto: ""if((a < 10 && a > 0) || b < 4){...}". Na linguagem C, qual um possível valor para as variáveis a e b 
+para que a função if seja executada,supondo-as variáveis do tipo "int"?"
+options:
+ - A : "a = -3, b = 5"
+  correct: False
+  reason: "Nenhuma das condições é satisfeita."
+
+ - B : "a = 10, b = 4"
+  correct: False
+  reason: "Nenhuma das condições é satisfeita"
+ 
+ - C : "a = 3, b = 5"
+  correct: False 
+  reason: "Uma das condições de || é satisfeita, portanto será executado."
+ 
+ - D :"Nenhuma das respostas anteriores."
+  correct: False
+  reason: "Considere alguma das respostas anteriores! Algo pode ter passado despercebido!"
+---
+
