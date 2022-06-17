@@ -102,3 +102,7 @@ body,html{
 #materias a.destaque .img-container img{
     max-height: 160px;
 }
+
+#submenu:hover .dropdown-menu {
+    display: initial;
+}
