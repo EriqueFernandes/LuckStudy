@@ -1,0 +1,9 @@
+É preciso de instalar uma biblioteca para a manipulação dos arquivos yaml em Python. Sendo isso feito com:
+"pip install pyyaml"
+
+Para rodar o arquivo no console é preciso fazer install da biblioteca flask e da cs50:
+pip install flash
+pip install cs50
+
+Após isso é necessário utilizar o comando:
+flask run

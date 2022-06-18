@@ -103,6 +103,6 @@ body,html{
     max-height: 160px;
 }
 
-#submenu:hover .dropdown-menu {
+.submenu:hover .dropdown-menu {
     display: initial;
 }

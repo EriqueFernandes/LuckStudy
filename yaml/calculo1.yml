@@ -3,17 +3,17 @@ texto: Determine a derivada de \(y = x^2\), em relação a x.
 options:
  - A : "\(2x\)"
   correct: True 
-  reason: "Segue-se diretamente aplicando a fórmula da derivada de uma potência."
+  reason: Segue-se diretamente aplicando a fórmula da derivada de uma potência.
 
  - B : "\(2\)"
   correct: False
-  reason:"O x não desaparece quando é aplicada a fórmula da derivada da potência."
+  reason: "O x não desaparece quando é aplicada a fórmula da derivada da potência."
 
  - C : "\(x^3\)"
   correct: False
   reason: "O expoente é decrescido em 1 quando se é aplicado a fórmula da derivada da potência."
 
- - D :"\(\dfrac{x}{2}\)"
+ - D : "\(\dfrac{x}{2}\)"
   correct: False
   reason: "A aplicação da fórmula da derivada de uma potência foi incorreta."
 
@@ -39,7 +39,6 @@ options:
   correct: False
   reason: "Não há somente uma constante em \(f(x)\)"
  
- - E :"Nenhuma das respostas anteriores."
+ - E : "Nenhuma das respostas anteriores."
   correct: False
   reason: "Considere alguma das respostas anteriores! Algo pode ter passado despercebido!"
----

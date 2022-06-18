@@ -1,0 +1,1 @@
+Bug na formatação de texto no yaml para ser lido pelo flask e passado para o html
