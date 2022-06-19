@@ -39,6 +39,10 @@ def ic():
     yam = yaml.load_all(f,Loader=Loader)
     return render_template("questoes.html", dados = yam )
 
+@app.route("/contato")
+def contato():
+    return render_template("contato.html")
+
 @app.route("/sobre")
 def sobre():
     return render_template("sobre.html")

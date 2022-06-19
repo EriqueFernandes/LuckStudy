@@ -37,19 +37,19 @@ options:
 ---
 texto: 'Encontre os intervalos onde f é crescente e decrescente respectivamente, com \(f(x) = x^2 + 6x + 3\), no universo dos números reais.'
 options:
-  - A : '\( (-\inf, \inf); \null \)'
+  - A : '\( (-\infty, \infty); \emptyset \)'
     correct: True
     reason: 'A derivada é uma função de primeiro grau!'
 
-  - B : '\( \null; (-\inf, \inf) \)'
+  - B : '\( \emptyset; (-\infty, \infty) \)'
     correct: False
     reason: 'A derivada é uma função de primeiro grau!'
  
-  - C : '\((6, \inf); (-\inf, 6)\)'
+  - C : '\((6, \infty); (-\infty, 6)\)'
     correct: False 
     reason: 'Ponto crítico incorreto.'
 
-  - D : '\((-3, \inf);(-\inf, -3)\)'
+  - D : '\((-3, \infty);(-\infty, -3)\)'
     correct: False
     reason: 'De fato, -3 é o ponto crítico e a derivada muda de sinal nesse ponto.' 
 ---

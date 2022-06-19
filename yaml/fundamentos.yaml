@@ -35,7 +35,7 @@ options:
     correct: True
     reason: 'Há um padrão de 4 em 4 nas potências de dois, repetindo as unidades. Como \(961 = 4 * 240 + 1 \),implica que \(2^{961} \congruent 2^1\) '
 ---
-texto: 'Sobre a equação \( \sqrt{x^2 +1} = x + 3, x \in \R \), podemos afirmar que:'
+texto: 'Sobre a equação \( \sqrt{x^2 +1} = x + 3, x \in \mathbb{R} \), podemos afirmar que:'
 options:
   - A : 'Há duas soluções para x.'
     correct: False

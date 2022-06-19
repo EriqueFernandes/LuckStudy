@@ -19,15 +19,15 @@ options:
 ---
 texto: 'Dado uma sequência finita de números reais \( x_{1},x_{2},x_{3}, ..., x_{n} \), e média m, a soma dos erros médios ao quadrado é dada por:' 
 options:
-  - A : '\( sum_{i = 1}^{n} (x_{i} - m)^2 \)'
+  - A : ' \( \sum_{i = 1}^{n} (x_{i} - m)^2 \) '
     correct: True
     reason: 'Convém da definição!' 
 
-  - B : '\( sum_{i = 1}^{n} x_{i}^2 - m^2 \)'
+  - B : ' \( \sum_{i = 1}^{n} x_{i}^2 - m^2 \)'
     correct: False
     reason: 'Não é a aplicação certa da definição em um somatório.'
  
-  - C : '\( sum_{i = 1}^{n} \dfrac{x^2_{i}}{m} - m \)'
+  - C : ' \( \sum_{i = 1}^{n} \dfrac{x^2_{i}}{m} - m \)'
     correct: False
     reason: 'Não é a aplicação certa da definição em um somatório.'
  
