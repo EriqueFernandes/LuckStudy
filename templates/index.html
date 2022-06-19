@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LuckStudy</title>
-    <link rel = "shortcut icon" href = "assets/logo.webp">
+    <link rel = "shortcut icon" href = "static/assets/logo.webp">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="static/main.css">
     <!-- bibliotecas adicionais -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,8 @@
     <div id="header">
       <div class="container">
       <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/logo.webp" class="img">
+          <a class="navbar-brand" href="/">
+            <img src="static/assets/logo.webp" class="img">
             &nbsp LuckStudy
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,27 +27,27 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+                <a class="nav-link active" aria-current="page" href="/">Página Inicial</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Matérias</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="abaQuestoes/GA.html">Geometria Analítica</a></li>
+                  <li><a class="dropdown-item" href="/ga">Geometria Analítica</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="abaQuestoes/Calculo.html">Cálculo em uma variável</a></li>
+                  <li><a class="dropdown-item" href="/calculo">Cálculo em uma variável</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="abaQuestoes/Modelagem.html">Introdução à Modelagem</a></li>
+                  <li><a class="dropdown-item" href="/modelagem">Introdução à Modelagem</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="abaQuestoes/IC.html">Introdução à Computação</a></li>
+                  <li><a class="dropdown-item" href="/ic">Introdução à Computação</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="abaQuestoes/Fundamentos.html">Fundamentos da Matemática</a></li>
+                  <li><a class="dropdown-item" href="/fundamentos">Fundamentos da Matemática</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contato</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="abaSobre/sobre.html">Sobre</a>
+                <a class="nav-link" href="/sobre">Sobre</a>
               </li>
             </ul>
           </div>
@@ -63,12 +63,12 @@
           <div class="col-md-6 align-self-center mb-md-0 mb-4">
             <h1>A persistência é o melhor caminho do êxito</h1>
             <h4 class="mb-4">Percorra esse caminho conosco!</h4>
-            <a href="abaSobre/sobre.html" class="btn button-primary btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba mais</a>
+            <a href="/sobre" class="btn button-primary btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">Saiba mais</a>
             <a href="#" class="btn button-primary-outline btn-outline-primary button d-md-inline-block d-block">Contato</a>
           </div>
           <div class="col-md-6 align-self-center">
             <!-- Poderia colocar ( text-center   ) para centralizar a imagem -->
-            <img src="assets/principal1.jpg" class="imgPrincipal"/>
+            <img src="static/assets/principal1.jpg" class="imgPrincipal"/>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-center align-self-center order-md-1 order-2">
-            <img src="assets/imgA.webp" class="imgA" />
+            <img src="static/assets/imgA.webp" class="imgA" />
           </div>
           <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1">
             <h2 class="title">Aqui você encontra tudo de mais precioso para o seu estudo!</h2>
@@ -105,27 +105,27 @@
         <h4 class="subtitle text-center mb-4">Para mais informações referente a alguma das disciplinas, confira abaixo:</h4>
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <a href="abaQuestoes/GA.html" class="destaque">
+            <a href="/ga" class="destaque">
               <div class="img-container mb-3">
-                <img src="assets/GA.webp" class="img-fluid" />
+                <img src="static/assets/GA.webp" class="img-fluid" />
               </div>
               <h5 class="text-uppercase">Geometria Analítica</h5>
               <p class="mb-0">Desde vetores até R3</p>
             </a>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <a href="abaQuestoes/Calculo.html" class="destaque">
+            <a href="/calculo" class="destaque">
               <div class="img-container mb-3">
-                <img src="assets/Cálculo.jpg" class="img-fluid" />
+                <img src="static/assets/Cálculo.jpg" class="img-fluid" />
               </div>
               <h5 class="text-uppercase">Cálculo em uma Variável</h5>
               <p class="mb-0">Desde limites até integrais</p>
             </a>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <a href="abaQuestoes/IC.html" class="destaque">
+            <a href="/ic" class="destaque">
               <div class="img-container mb-3">
-                <img src="assets/IC.webp" class="img-fluid" />
+                <img src="static/assets/IC.webp" class="img-fluid" />
               </div>
               <h5 class="text-uppercase">Introdução à Computação</h5>
               <p class="mb-0">Desde C até Python</p>
@@ -136,18 +136,18 @@
             <div class="container pt-4">
               <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                  <a href="abaQuestoes/Fundamentos.html" class="destaque">
+                  <a href="/fundamentos" class="destaque">
                     <div class="img-container mb-3">
-                      <img src="assets/Fundamentos.png" class="img-fluid" />
+                      <img src="static/assets/Fundamentos.png" class="img-fluid" />
                     </div>
                     <h5 class="text-uppercase">Fundamentos da Matemática</h5>
                     <p class="mb-0">Desde Fermat até Jogos</p>
                   </a>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                  <a href="abaQuestoes/Modelagem.html" class="destaque">
+                  <a href="/modelagem" class="destaque">
                     <div class="img-container mb-3">
-                      <img src="assets/Modelagem.png" class="img-fluid" />
+                      <img src="static/assets/Modelagem.png" class="img-fluid" />
                     </div>
                     <h5 class="text-uppercase">Modelagem Matemática</h5>
                     <p class="mb-0">Desde Excel até Matlab</p>
@@ -160,6 +160,6 @@
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="static/js/main.js"></script>
   </body>
 </html>
